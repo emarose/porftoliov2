@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Carousel } from 'react-bootstrap'
-import placeholder from './placeholder.png'
+
 import php from './Titulo Php.jpg'
 import placeholderUTN from './placeholderUTNba.png'
 

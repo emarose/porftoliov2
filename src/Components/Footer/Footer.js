@@ -23,7 +23,7 @@ function Footer() {
               <a href="https://www.facebook.com/ema.rose.50"><AiFillFacebook className="footerIcon"/><sub> Facebook</sub></a>
             </li>
             <li >
-              <Link><BsMailbox className="footerIcon"/><sub> Email</sub></Link>
+              <Link to="/contacto"><BsMailbox className="footerIcon"/><sub> Email</sub></Link>
             </li>
           </ul>
           <div className="logoContainer">

@@ -9,14 +9,14 @@ function Navi() {
     <>
         <Navbar className="navi" collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand><Link to="/"><BsCodeSlash className="brand mx-3"/></Link></Navbar.Brand>
+            <Link to="/"><BsCodeSlash className="brand mx-3"/></Link>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto nav-link" bg="dark">
-                <Nav.Link><Link to="/sobremi">Sobre mi</Link></Nav.Link>
-                <Nav.Link><Link to="/portfolio">Portfolio</Link></Nav.Link>
-                <Nav.Link><Link to="/formacion">Formación</Link></Nav.Link>
-                <Nav.Link><Link to="/contacto">Contactame</Link></Nav.Link>
+                <Link to="/sobremi">Sobre mi</Link>
+                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/formacion">Formación</Link>
+                <Link to="/contacto">Contactame</Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
