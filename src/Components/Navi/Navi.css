@@ -1,7 +1,45 @@
 .navi{
-  height: 50px;
+  height: 58px;
 }
 
 .brand{
   font-size: 1.8rem;
+  color:#fff
+}
+.nav-link a{
+  font-size: 1.2rem;
+  color:rgb(150,150,150);
+  text-decoration: none;
+  transition: 0.4s all;
+}
+
+.nav-link a:hover{
+  color:rgb(200,200,200);
+}
+
+@media screen and (max-width:1000px) {
+  #responsive-navbar-nav{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 9px;
+    background-color: var(--main-color);
+    z-index: 10;
+  }
+  .dropdown-menu{
+    background-color: rgba(0,0,0,0.1) !important;
+  }
+ 
+  #responsive-navbar-nav a{
+    font-family: var(--sub-font);
+    text-shadow: 0 0 1px #000 !important;
+    color: black !important;
+    margin-left: 15px;
+  } 
+  #responsive-navbar-nav a:hover{
+    color: #fff !important;
+
+    margin-left: 15px;
+    max-width: fit-content;
+    border-radius: 10px;
+  }
 }

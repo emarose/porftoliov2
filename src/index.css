@@ -1,89 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Georama:wght@100;200;300;400;700&family=Montserrat&display=swap');
 
+
 :root{
-  --main-font:'Georama', sans-serif;
-  --sub-font:'Montserrat', sans-serif;
-  --main-color: rgb(100,42,185);
+  --sub-font:'Georama', sans-serif;
+  --main-font:'Montserrat', sans-serif;
+  --main-color: rgb(120,62,205);
   --main-shadow: rgba(100,42,185,0.2);
 }
+
 html{
   scroll-behavior: smooth;
 }
 
 *{
-  font-family: var(--sub-font) !important;
+  text-decoration: none;
+  list-style: none;
 }
-
+h1,h2,h3,h4,h5{
+  font-family: var(--main-font);
+}
+p{
+  font-family: var(--sub-font);
+}
 body{
-  background-color: rgb(245,238,245) !important;
+  background-color: rgb(247,245,246) !important;
 }
 
 
 /* ANIMACIONES */
 
-.fade-in{
-  animation: FadeIn 8s;
-}
-
-.fade-in-from-right{
-  animation: FadeIn-from-right 3s;
-}
-
-.fade-in-from-left{
-  animation: FadeIn-from-left 3s;
-}
-
 .type-animation {
-
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  animation: typing 2s steps(40, end), blink .5s step-end infinite;
   white-space: nowrap;
   overflow: hidden;
+  margin: 0 auto;
   border-right: 2px solid;
-  font-size: 2.1em;
-  margin-top: 50px;
+  font-size: 2.9em;
 }
 
 
 @keyframes typing {
-  from {
-      opacity: 0;
-      width: 0;
-  }
+  from { width: 0 } 
+  to {width: 100% }
 }
 
 @keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-
-@keyframes FadeIn{
-  from {
-      opacity:0;
-  }
-  to{
-      opacity: 1;
-  }
-}
-
-@keyframes FadeIn-from-right{
-  from {
-      opacity:0;
-      transform: translateX(300px);
-  }
-  to{
-      opacity: 1;
-      transform: translateX(0);
-  }
-}
-
-@keyframes FadeIn-from-left{
-  from {
-      opacity:0;
-      transform: translateX(-300px);
-  }
-  to{
-      opacity: 1;
-      transform: translateX(0);
-  }
+  from, to { border-color: transparent }
+  50% { border-color: #fff}
 }

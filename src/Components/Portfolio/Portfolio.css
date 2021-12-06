@@ -1,0 +1,69 @@
+.portfolioContainer{
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.portfolioRow{
+  max-width: 900px;
+}
+
+.portfolioRow h2{
+  margin: 50px 0 65px 0;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--main-color);
+}
+.cardBody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+}
+
+.portfolioCol{
+  padding: 15px 15px;
+  margin: 15px 15px;
+  min-height: 350px;
+  max-width: 350px;
+  background-color: #fff;
+  border: 2px solid var(--main-shadow);
+  display: grid;
+  justify-content: center;
+}
+
+.portfolioCol p{
+  font-size: 16px;
+}
+
+.portfolioCol h1{
+  padding: 10px;
+  font-size: 32px;
+}
+.portfolioBtn{
+  margin:5px auto;
+  max-width: fit-content;
+  border: none !important;
+  background-color: var(--main-color) !important;
+}
+
+.portfolioBtn:hover{
+  color:#000 !important;
+  font-weight: bolder;
+  background-color: var(--main-shadow) !important;
+  outline: 1px solid var(--main-color) !important;
+}
+
+.portfolioCol img{
+  max-width: 300px;
+  border: 2px solid var(--main-shadow);
+}
+
+
+@media screen and (max-width:900px) {
+  .portfolioCol{
+    margin: 50px 30px;
+  }
+}

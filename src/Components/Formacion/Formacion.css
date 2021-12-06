@@ -1,0 +1,27 @@
+.formacionRow{
+  min-height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 60px 60px 0px 0px var(--main-color);
+}
+.formacionRow h2{
+  font-size: 64px;
+  margin-bottom: 120px;
+  font-weight: 600;
+  color: var(--main-color);
+}
+.formacionWrap p{
+  line-height: 2.2;
+  font-size: larger;
+}
+
+.linkFormacion{
+  text-decoration: none;
+  font-weight: 600;
+  color:var(--main-color);
+}
+
+.linkFormacion:hover{
+  color:#000;
+}

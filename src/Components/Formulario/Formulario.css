@@ -1,0 +1,50 @@
+.formContainer{
+  background-color: rgb(3,1,5);
+  min-height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.formContainer input::placeholder{
+  color:#000;
+}
+
+.formContainer textarea::placeholder{
+  color:#000;
+}
+
+.btn-custom{
+  background-color: var(--main-color) !important;
+  border: none !important;
+}
+
+.btn-custom:hover{
+  color: #fff !important;
+  background-color: var(--main-shadow) !important;
+  outline: 1px solid var(--main-color) !important;
+}
+
+.wrapContacto{
+  height: 100%;
+
+}
+.wrapContacto ul{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.wrapContacto ul li a {
+  text-decoration: none;
+  color:#fff;
+  font-size: 1.5rem;
+}
+.wrapContacto ul li a:hover {
+  text-decoration: none;
+  color:var(--main-color);
+  font-size: 1.5rem;
+}
