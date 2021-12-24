@@ -3,9 +3,7 @@
   display: grid;
   justify-content: center;
   align-items: center;
-}
-.portfolioRow{
-  max-width: 900px;
+
 }
 
 .portfolioRow h2{
@@ -61,7 +59,25 @@
   border: 2px solid var(--main-shadow);
 }
 
+.bootcamp-item{
+  width: fit-content;
+  padding: 0.5em 1em;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
 
+.bootcamp-item a{
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.bootcamp-item p{
+  border-radius: 8px;
+  padding: 0.5em;
+  background-color: var(--main-shadow);
+  color: #000;
+}
 @media screen and (max-width:900px) {
   .portfolioCol{
     margin: 50px 30px;

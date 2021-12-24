@@ -37,13 +37,26 @@
   align-items: center;
   min-height: 745px;
   min-width: 50ch;
-  
 }
 
 .habilidades p{
   font-size: clamp(12px,10vw,17px);
   padding: 8px 0;
   line-height: 1.7;
+}
+.habilidades a{
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin: 2.6em 0;
+  color: #000;
+  padding: 6px 8px;
+  border-radius: 8px;
+  outline: 1px solid var(--main-color);
+  transition: 0.3s all;
+}
+.habilidades a:hover{
+  background-color: var(--main-color);
+  color: #fff;
 }
 
 .lenguajes{

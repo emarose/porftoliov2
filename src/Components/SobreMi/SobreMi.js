@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './SobreMi.css'
+import { Link } from 'react-router-dom';
 import { SiJavascript } from 'react-icons/si';
 import { SiHtml5 } from 'react-icons/si';
 import { SiCss3 } from 'react-icons/si';
@@ -41,8 +42,9 @@ function SobreMi() {
               Me encanta programar en Python y utilizar el micro-Framework FLASK para realizar APIs y routeo, desarrollando el Front-End con Html | CSS | JS y ReactJS.
               Desde mediados de 2021 estudio, practico y desarrollo proyectos utilizando NodeJS y Angular en lugar de Python. </p>
             <p><strong>Tecnología:</strong> Tengo experiencia y conocimiento en instalación, configuración y matenimiento de redes y sistemas informáticos.</p>
-            <p><strong>Herramientas:</strong> Integro GitHub en todos mis proyectos y utilizo diversas herramientas para gestionar proyectos (Trello, Slack)<br/>DevOps: Docker</p>
+            <p><strong>Herramientas:</strong> Integro GitHub en todos mis proyectos y utilizo diversas herramientas para gestionar proyectos (Trello, Slack)<br/>DevOps: Docker | DockerHub</p>
             <p><strong>Soft Skills:</strong> Flexibilidad / adaptabilidad. Aprendo rápidamente. Me entusiasma el trabajo en equipo. Facilidad en la resolución de problemas. Metodologías agiles (SCRUM) para desarrollo de software. </p>
+            <Link to="/portfolio">Ver Portfolio</Link>
           </div>
         </Col>
       </Row>
