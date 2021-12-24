@@ -95,27 +95,27 @@ function Portfolio() {
           <h1 data-aos="fade-right" className="my-5 text-center">DevPlace Bootcamp</h1>
           <Col className="d-flex flex-wrap gap-5 mb-5 text-center">
             <div className="bootcamp-item">
-              <a href="https://bootcamp-cards2.vercel.app/" target="_blank">Card</a>
+              <a href="https://bootcamp-cards2.vercel.app/"  rel="noreferrer" target="_blank">Card</a>
               <hr />
               <p>Actividad práctica individual</p>
             </div>
             <div className="bootcamp-item">
-              <a href="https://bootcamp-cards1.vercel.app/" target="_blank">Card Group</a>
+              <a href="https://bootcamp-cards1.vercel.app/"  rel="noreferrer" target="_blank">Card Group</a>
               <hr />
               <p>Actividad práctica individual</p>
             </div>
             <div className="bootcamp-item">
-              <a href="https://bootcamp-cards3.vercel.app/" target="_blank">Card Group - Actividad Grupal</a>
+              <a href="https://bootcamp-cards3.vercel.app/"  rel="noreferrer" target="_blank">Card Group - Actividad Grupal</a>
               <hr />
               <p>Actividad práctica individual</p>
             </div>
             <div className="bootcamp-item">
-              <a href="https://bootcamp-landing1.vercel.app/" target="_blank">Landing Page Starbucks</a>
+              <a href="https://bootcamp-landing1.vercel.app/"  rel="noreferrer" target="_blank">Landing Page Starbucks</a>
               <hr />
               <p>Actividad práctica individual</p>
             </div>
             <div className="bootcamp-item">
-              <a href="https://silly-meitner-d9ba5b.netlify.app/" target="_blank">Card JS</a>
+              <a href="https://silly-meitner-d9ba5b.netlify.app/"  rel="noreferrer" target="_blank">Card JS</a>
               <hr />
               <p>Actividad práctica individual</p>
             </div>
