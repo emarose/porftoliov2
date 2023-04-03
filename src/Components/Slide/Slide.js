@@ -1,15 +1,21 @@
-import React from 'react'
-import { Container, Row, Carousel } from 'react-bootstrap'
+import React from "react";
+import { Container, Row, Carousel } from "react-bootstrap";
 
-import php from './Titulo Php.jpg'
-import react from './Certificado-React.jpg'
-import placeholderUTN from './placeholderUTNba.png'
+import php from "./CertificadoPhp.jpg";
+import react from "./CertificadoReact.jpg";
+import uxUi from "./CertificadoUX-UI.jpg";
+import nodejs from "./CertificadoNodeJS.jpg";
 
 function Slide() {
   return (
     <>
-      <Container className="slideContainer" style={{marginTop:"150px"}} data-aos="fade-left" data-aos-delay="200" >
-      <h1 className="my-3">Certificados</h1>
+      <Container
+        className="slideContainer"
+        style={{ marginTop: "150px" }}
+        data-aos="fade-left"
+        data-aos-delay="200"
+      >
+        <h1 className="my-3">Certificados</h1>
         <Row className="my-5">
           <Carousel variant="dark">
             <Carousel.Item>
@@ -19,8 +25,10 @@ function Slide() {
                 alt="Titulo PHP Junior developer"
               />
               <Carousel.Caption>
-                <h4 className="font-weight-bold">Programador web Junior</h4>
-                <p>Tecnologías: PHP | MYSQL | Bootstrap</p>
+                <h4 className="fw-bold bg-light">Programador web PHP Junior</h4>
+                <p className="fw-bold bg-light">
+                  Tecnologías: PHP | MYSQL | Bootstrap
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -30,26 +38,47 @@ function Slide() {
                 alt="Certificado UTNba ReactJS"
               />
               <Carousel.Caption>
-                <h4 className="font-weight-bold">Desarrollo en ReactJS</h4>
-                <p>React Hooks | Redux | Axios | APIs</p>
+                <h4 className="fw-bold bg-light">Desarrollo en ReactJS</h4>
+                <p className="fw-bold bg-light">
+                  React Hooks | Redux | Axios | APIs
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
-          </Carousel>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={placeholderUTN}
+                src={nodejs}
                 alt="UTNba Titulo Full Stack developer STACK MERN"
               />
               <Carousel.Caption>
-                <h4 className="font-weight-bold">Desarrollador web Full-Stack</h4>
-                <p>Especializacion en ReactJS/Angular/NodeJS</p>
+                <h4 className="fw-bold bg-light">
+                  Desarrollador web Full-Stack
+                </h4>
+                <p className="fw-bold bg-light">
+                  Especializacion en ReactJS/Angular/NodeJS
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
-          </Row>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={uxUi}
+                alt="UTNba Titulo Full Stack developer STACK MERN"
+              />
+              <Carousel.Caption>
+                <h4 className="fw-bold bg-light">
+                  Diseño de Interfaz de Usuario
+                </h4>
+                <p className="fw-bold bg-light">
+                  Especializacion en Figma/Wireframing/UX Writing
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </Row>
       </Container>
     </>
-  )
+  );
 }
 
-export default Slide
+export default Slide;
